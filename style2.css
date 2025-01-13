@@ -161,7 +161,7 @@ margin-left: 10px;
   margin: 20px 0; 
   padding: 10px; 
   border-radius: 10px; 
- margin-left: -20px;
+ margin-left: -50px;
   animation: fadeIn 1s ease-in-out; 
 }
 
@@ -673,17 +673,5 @@ footer img {
   }
   to {
     transform: rotate(360deg);
-  }
-}
-
-
-@media only screen and (max-width: 768px) {
-  html {
-    font-size: 90%;
-    padding: 15px;
-  }
-  .gift-methods {
-    flex-direction: column;
-    gap: 20px;
   }
 }
