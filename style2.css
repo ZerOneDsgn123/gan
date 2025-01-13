@@ -310,12 +310,12 @@ p {
   grid-template-rows: auto auto;
   gap: 20px;
   padding: 20px;
-  border: 5px solid #fc8a8a; 
+  border: 5px solid #ffd500; 
   border-radius: 15px; 
-  width: 300px;
+  width: 328px;
   margin: 0 auto;
   opacity: 0;
-  margin-left: -4px;
+  margin-left: -10px;
   animation: fadeIn 1s forwards ease-in-out;
 }
 
@@ -367,14 +367,14 @@ p {
 
 .confirmation-container {
   text-align: center;
-  background-color: #fc8a8a;
+  background-color: #e5bf17;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width:  310px;
+  width:  340px;
   height: 600px;
   margin: -5px;
-  margin-left: -9px;
+  margin-left: -17px;
   animation: bounceRight 0.8s ease-out;
 }
 
@@ -455,7 +455,7 @@ p {
 
 .gift-container2 {
   max-width: 600px;
-  width: 300px;
+  width: 360px;
   padding: 40px;
   background-color: #f8f9fa; 
   border-radius: 20px;
@@ -532,7 +532,7 @@ p strong {
 
 
 button {
-  background-color: #28a745; 
+  background-color: #a72828; 
   color: white;
   border: none;
   padding:  16px;
@@ -576,7 +576,7 @@ button:hover {
   text-align: center; 
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
   max-width: 700px; 
-  width: 290px;
+  width: 350px;
 }
 
 .thanks-section h3 {
@@ -587,7 +587,7 @@ button:hover {
 }
 
 .thanks-section p {
-  font-size: 16px; 
+  font-size: 13px; 
   color: #555; 
   line-height: 1.6; 
   margin-left: 5px;
@@ -595,7 +595,7 @@ button:hover {
 }
 
 .couple-names p {
-  font-size: 18px; 
+  font-size: 20px; 
   color: #333; 
   margin-top: 20px; 
   font-weight: bold; 
@@ -635,8 +635,8 @@ footer img {
 }
 
 .music-icon {
-  width: 30px; 
-  height: 30px; 
+  width: 45px; 
+  height: 45px; 
   border-radius: 50%;
   background-color: #8EACCD;
   display: flex;
