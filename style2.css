@@ -17,11 +17,10 @@ body {
 }
 
 .phone-frame {
-  width: 390px;
+  width: 380px;
   background-color: #d3fde3;
   padding: 20px;
   position: relative;
-  overflow: auto;
   margin: 0 auto;
 }
 
