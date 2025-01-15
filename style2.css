@@ -206,42 +206,22 @@ p {
   font-family: 'Arial', sans-serif;
 }
 
+
 .card {
-  background: linear-gradient(to bottom, #f8f8f8, #f0e4d7);
-  border-radius: 20px;
-  padding: 20px;
-  margin: 30px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 2px solid transparent;
- width: 90%;
- margin-left: 2px; 
- transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: white;
+  border-radius: 3rem;
+ width: 310px;
+ align-items: center;
+ margin-left: -20px;
 }
 
-.card h2 {
-  font-size: 25px;
-  color: #000000;
-  font-weight: bold; 
-  padding: 10px; 
-  animation: fadeIn 1s ease-in-out; 
-  margin-left: 25px;
+.card-title {
+  font-family: 'Arizonia', cursive;
+  font-size: 1.5rem;
 }
 
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-
-.card:nth-child(1) {
-  border-color: #227B94;
-  transition: border-color 0.5s ease;
-}
-.card:nth-child(2) {
-  border-color: #ff8c65;
-  transition: border-color 0.5s ease;
-}
 
 @keyframes fadeIn {
   0% {
