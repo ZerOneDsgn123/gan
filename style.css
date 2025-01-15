@@ -18,10 +18,10 @@ body {
 }
 
 .phone-frame {
-  width: 410vh; /* Sesuaikan agar responsif */
-  max-width: 410px; /* Batas maksimum lebar */
-  height: 100vh; /* Sesuaikan agar responsif */
-  max-height: 800px; /* Batas maksimum tinggi */
+  width: 410vh; 
+  max-width: 410px; 
+  height: 100vh; 
+  max-height: 800px;
   background-color: #d3fde3;
   position: relative;
 }
@@ -79,30 +79,32 @@ body {
     color: #333;
 }
 
-.countdown {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 20px 0;
-}
-
-.box {
-  background: linear-gradient(45deg, #ff6e6e, #ffffff);
-  border: 2px solid;
-  padding: 10px;
-  border-radius: 10px;
-  text-align: center;
-}
-
 .box span {
   font-size: 1.8rem;
   font-weight: bold;
 }
 
 .container h1 {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 20px;
+    font-family: 'inika',serif;
   }
+
+  .invitation {
+    text-align: center;
+}
+
+.greeting {
+    margin-top: 9rem;
+    font-size: 18px;
+}
+
+.guest-name {
+    font-weight: bold;
+   font-size: 18px;
+   margin-top: 1rem;
+}
+
 
   .btn {
     padding: 15px 20px;
