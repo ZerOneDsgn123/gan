@@ -17,7 +17,7 @@ body {
 }
 
 .phone-frame {
-  width: 380px;
+  width: 383px;
   background-color: #d3fde3;
   padding: 20px;
   position: relative;
@@ -190,7 +190,7 @@ margin-left: 10px;
   text-align: center;
   margin-top: 60px;
   color: black;
-  font-weight: 900;
+  font-weight: 900;   
   animation: fadeIn 1.3s ease-in forwards;
 }
 
@@ -212,15 +212,17 @@ p {
   padding-bottom: 3rem;
   background-color: white;
   border-radius: 3rem;
- width: 310px;
- align-items: center;
- margin-left: -20px;
+ width: 320px;
+ text-align: center;
+ margin-left: -18px;
 }
 
 .card-title {
   font-family: 'Arizonia', cursive;
   font-size: 1.5rem;
+  text-align: center;
 }
+
 
 
 @keyframes fadeIn {
