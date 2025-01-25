@@ -188,6 +188,7 @@ margin-left: 10px;
 .header {
   font-size: 30px;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
   margin-top: 60px;
   color: black;
   font-weight: 900;   
@@ -212,15 +213,61 @@ p {
   padding-bottom: 3rem;
   background-color: white;
   border-radius: 3rem;
- width: 320px;
+ width: 340px;
  text-align: center;
- margin-left: -18px;
+ justify-content: center;
+ margin-left: -35px;
 }
 
 .card-title {
   font-family: 'Arizonia', cursive;
   font-size: 1.5rem;
   text-align: center;
+}
+
+.countdown {
+  padding: 20px 10px;
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+#countdown-timer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column; /* Menata elemen secara vertikal */
+  align-items: center; /* Menjaga konten di tengah secara horizontal */
+  justify-content: center; /* Menjaga konten di tengah secara vertikal */
+  padding: 15px;
+  background-color: #ffcfcf;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 75px;
+  height: 75px;
+}
+
+.countdown-item span {
+  font-size: 1.5rem;
+  margin-top: 19px;
+  font-weight: bold;
+  display: block;
+  color: #ffffff;
+}
+
+.countdown-item p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000000;
+  font-weight: bold;
+  text-align: center; 
 }
 
 
@@ -356,7 +403,7 @@ p {
   width:  340px;
   height: 600px;
   margin: -5px;
-  margin-left: -40px;
+  margin-left: -35px;
   animation: bounceRight 0.8s ease-out;
 }
 
@@ -443,7 +490,7 @@ p {
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
   margin: 50px auto;
-  margin-left: -11px;
+  margin-left: -8px;
   text-align: center;
 }
 
@@ -597,6 +644,7 @@ footer {
 footer p {
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
+  margin-right: -15px;
 }
 
 footer img {
