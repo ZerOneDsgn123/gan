@@ -1,4 +1,4 @@
-const weddingDate = new Date("Mar 25, 2025 00:00:00").getTime();
+const weddingDate = new Date("Feb 23, 2025 00:00:00").getTime();
 
 const countdown = setInterval(function() {
     const now = new Date().getTime();

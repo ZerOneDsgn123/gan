@@ -188,7 +188,6 @@ margin-left: 10px;
 .header {
   font-size: 30px;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
   margin-top: 60px;
   color: black;
   font-weight: 900;   
@@ -203,21 +202,25 @@ margin-left: 10px;
   line-height: 1.6; 
 }
 
-p {
-  font-family: 'Arial', sans-serif;
+.p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 .card {
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
   background-color: white;
   border-radius: 3rem;
- width: 340px;
- text-align: center;
- justify-content: center;
- margin-left: -35px;
+  height: 570px;
+    width: 345px; 
+ margin-left: -38px;
+ place-items: center;
+ display: grid;
+ line-height: 0.5;
+padding-left: 15px;
 }
+
 
 .card-title {
   font-family: 'Arizonia', cursive;
@@ -246,12 +249,13 @@ p {
   flex-direction: column; /* Menata elemen secara vertikal */
   align-items: center; /* Menjaga konten di tengah secara horizontal */
   justify-content: center; /* Menjaga konten di tengah secara vertikal */
-  padding: 15px;
   background-color: #ffcfcf;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 75px;
-  height: 75px;
+ height: 70px;
+ width: 70px;
+  line-height: 1;
+  margin-left: -15px;
 }
 
 .countdown-item span {
